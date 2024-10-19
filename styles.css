@@ -1,0 +1,207 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Navbar */
+nav {
+    background-color: #1e1e1e;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo h1 {
+    color: #f9c74f;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: #f9f9f9;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f9c74f;
+}
+
+/* Banner Section */
+.banner {
+    background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.banner h2 {
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #fefae0;
+    padding: 50px 0;
+}
+
+#portfolio h2 {
+    text-align: center;
+    color: #2a9d8f;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.portfolio-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.portfolio-item p {
+    margin-top: 10px;
+    color: #444;
+}
+
+/* Services Section */
+#services {
+    background-color: #2a9d8f;
+    padding: 50px 0;
+    color: #fff;
+}
+
+#services h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-item {
+    width: 300px;
+    background-color: #264653;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.service-item i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #f4a261;
+}
+
+.service-item:hover {
+    transform: scale(1.05);
+}
+
+.service-item h3 {
+    margin-bottom: 10px;
+}
+
+/* Effects Section */
+#effects {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#effects h2 {
+    font-size: 2.5rem;
+    color: #e76f51;
+    margin-bottom: 30px;
+}
+
+.effects-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.effect-item {
+    width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.effect-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.effect-item p {
+    margin: 10px 0;
+}
+
+.effect-item button {
+    padding: 10px 20px;
+    background-color: #e76f51;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.effect-item button:hover {
+    background-color: #fff }
